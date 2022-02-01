@@ -25,15 +25,15 @@ i2c connections to the BMP388 board from the Pi are as follows:
 - Pi GPIO # to BMP388 INT - optional
 
 Included are 7 example files
-BMP388example1 - Simple example to read the pressure and temperature output registers
-BMP388example2 - Example using the sensor data ready interrupt to read the pressure and temperature output registers
-BMP388example3 - Example using the sensor data ready interrupt and the sensor interrupt pin to read the pressure and
+- BMP388example1 - Simple example to read the pressure and temperature output registers
+- BMP388example2 - Example using the sensor data ready interrupt to read the pressure and temperature output registers
+- BMP388example3 - Example using the sensor data ready interrupt and the sensor interrupt pin to read the pressure and
 temperature output registers
-BMP388example4 - 2nd example using the sensor data ready interrupt and the sensor interrupt pin to read the pressure and
+- BMP388example4 - 2nd example using the sensor data ready interrupt and the sensor interrupt pin to read the pressure and
 temperature output registers
-BMP388example5 - Example using the FIFO watermark interrupt to read the pressure and temperature from FIFO
-BMP388example6 - Example using the FIFO watermark interrupt to read the pressure, temperature and time from FIFO
-BMP388example7 - Example using the sensor FIFO watermark interrupt and the sensor interrupt pin to read the pressure and temperature
+- BMP388example5 - Example using the FIFO watermark interrupt to read the pressure and temperature from FIFO
+- BMP388example6 - Example using the FIFO watermark interrupt to read the pressure, temperature and time from FIFO
+- BMP388example7 - Example using the sensor FIFO watermark interrupt and the sensor interrupt pin to read the pressure and temperature
 from FIFO
 
 The BMP388 datasheet is useful for figuring out how to correctly configure the BMP338 for your application.
